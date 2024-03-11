@@ -9,6 +9,6 @@ public class Main {
 
         System.out.println(a+b+c);
         System.out.println((int)(a+b+c)/3);
-        System.out.println((int)((a+b+c)/3)-(a+b+c));
+        System.out.println((a+b+c)-(int)((a+b+c)/3));
     }
 }
