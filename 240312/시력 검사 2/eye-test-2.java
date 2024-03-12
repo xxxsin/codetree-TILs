@@ -6,7 +6,7 @@ public class Main {
         if (a>1.0) {
             System.out.println("High");
         }
-        else if (a>=0.5){
+        if (a>=0.5){
             System.out.println("Middle");
         }
         else{
