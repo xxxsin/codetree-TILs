@@ -7,8 +7,9 @@ public class Main {
                 a = a/2;
             }
             if (a%2 ==1){
-                System.out.println((a+1)/2);
+                a=(a+1)/2;
             }
+            System.out.println(a);
         }
     }
 }
