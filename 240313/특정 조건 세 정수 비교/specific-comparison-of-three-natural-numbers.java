@@ -7,10 +7,14 @@ public class Main {
         int b=sc.nextInt();
         int c=sc.nextInt();
 
+
         if (a==b){
             System.out.print(1+" ");
         }
         else if (a==c){
+            System.out.print(1+" ");
+        }
+        else if (a==1){
             System.out.print(1+" ");
         }
         else{
