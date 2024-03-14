@@ -12,7 +12,7 @@ public class Main {
         if (amath > bmath || (amath == bmath && aeng > beng)){
             System.out.println("A");
         }
-        else if {
+        else {
             System.out.println("B");
         }
 
