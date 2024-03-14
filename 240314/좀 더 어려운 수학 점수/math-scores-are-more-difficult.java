@@ -9,10 +9,10 @@ public class Main {
         int beng = sc.nextInt();
         int bmath = sc.nextInt();
 
-        if (amath < bmath || (amath == bmath && aeng > beng)){
+        if (amath > bmath || (amath == bmath && aeng > beng)){
             System.out.println("A");
         }
-        else{
+        else if {
             System.out.println("B");
         }
 
