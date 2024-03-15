@@ -10,7 +10,7 @@ public class Main {
         else if (y%100==0 || y%400==0){
             System.out.println("ture");
             }
-        else{
+        else if(y%400!=0){
             System.out.println("false");
         }
     }
