@@ -8,7 +8,7 @@ public class Main {
                 System.out.println("true");
             }
         else if (y%100==0 || y%400==0){
-            System.out.println("false");
+            System.out.println("ture");
             }
         else{
             System.out.println("false");
