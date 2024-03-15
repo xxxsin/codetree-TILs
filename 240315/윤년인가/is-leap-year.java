@@ -8,7 +8,7 @@ public class Main {
                 System.out.println("true");
             }
         else if (y%100==0){
-            System.out.println("flase");
+            System.out.println("false");
             }
 
         else if(y%4==0){
