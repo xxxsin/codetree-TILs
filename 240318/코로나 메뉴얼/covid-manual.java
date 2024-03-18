@@ -37,7 +37,7 @@ public class Main {
             }
         }
         else if (acorona == 'Y' && bcorona == 'Y' && ccorona == 'Y'){
-            if (((atemp >= 37)&&(btemp >= 37))||(btemp >= 37)&&(ctemp >= 37)||(ctemp >=37)&& (atemp >= 37) ){
+            if (((atemp >= 37)&&(btemp >= 37))||((btemp >= 37)&&(ctemp >= 37))||((ctemp >=37)&& (atemp >= 37))){
                 System.out.println("E");
             }
             else{
