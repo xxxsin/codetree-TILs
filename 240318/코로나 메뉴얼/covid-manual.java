@@ -44,8 +44,6 @@ public class Main {
                 System.out.println("N");
             }
         }
-        else{
-            System.out.println("N");
-        }
+       
     }
 }
