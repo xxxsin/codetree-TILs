@@ -36,6 +36,14 @@ public class Main {
                 System.out.println("N");
             }
         }
+        else if (acorona == 'Y' && bcorona == 'Y' && ccorona == 'Y'){
+            if (((atemp >= 37)&&(btemp >= 37))||(btemp >= 37)&&(ctemp >= 37)||(ctemp >=37)&& (atemp >= 37) ){
+                System.out.println("E");
+            }
+            else{
+                System.out.println("N");
+            }
+        }
         else{
             System.out.println("N");
         }
