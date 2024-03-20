@@ -6,7 +6,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        for(int i=1;  1<= i && i>=a && i<=100 & i<=b; i++ ){
+        for(int i=1; i <= a && i <=b; i++ ){
             if(i % 2 == 1) 
             System.out.print(i+ " ");
         }
