@@ -10,10 +10,10 @@ public class Main {
         if ((a<b&&b<c)||(c<b&&b<a)){
             System.out.println(b);
         }
-        else if ((b<a && a<c)||(c<b&&a<b)){
+        else if ((b<a && a<c)||(c<a &&a<b)){
             System.out.println(a);
         }
-        else if ((c<b&& c<a)||(a<c&&c<b)){
+        else if ((c<b&& c<a)||(c<a&&c<b)){
             System.out.println(c);
         }
     }
