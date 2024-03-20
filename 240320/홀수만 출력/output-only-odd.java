@@ -5,10 +5,9 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-
-        for(int i=1; i <= a && i <=b; i++ ){
-            if(i % 2 == 1) 
-            System.out.print(i+ " ");
+        for(int i=1; a<=i && i<=b; i+=1 ){
+            if(i % 2 == 1)
+                System.out.print(i+" ");
         }
     }
 }
