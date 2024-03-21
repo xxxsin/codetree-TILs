@@ -19,7 +19,7 @@ public class Main {
                 System.out.print('D'+" ");
             }
             else{
-                System.out.print('F');
+                System.out.print('F'+" ");
             }
         }
     }
