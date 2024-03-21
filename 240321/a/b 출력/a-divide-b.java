@@ -6,6 +6,11 @@ public class Main {
         int a= sc.nextInt();
         int b= sc.nextInt();
 
-       System.out.printf("%.20f ",(double)a/b);
+       for(int i=1; i<=20; i++){
+        double c = (a%b)*10;
+        c*=0.1;
+        System.out.print(c/b);
+       }
+    
     }
 }
