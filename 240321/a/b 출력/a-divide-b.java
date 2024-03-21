@@ -6,10 +6,14 @@ public class Main {
         int a= sc.nextInt();
         int b= sc.nextInt();
 
+        System.out.print(a/b+".");
+        
+        a=a%b;
        for(int i=1; i<=20; i++){
-        double c = (a%b)*10;
-        c*=0.1;
-        System.out.print(c/b);
+            a=a*10;
+            System.out.print(a/b);
+
+            a=a%b;  
        }
     
     }
